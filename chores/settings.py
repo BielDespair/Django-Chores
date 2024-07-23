@@ -81,7 +81,7 @@ WSGI_APPLICATION = 'chores.wsgi.application'
 DATABASES = {
     'default': dj_database_url.config(
         # Replace this value with your local database's connection string.
-        default='postgresql://postgres:postgres@localhost:5432/chores',
+        default='postgresql://productiondatabase_3ii8_user:N1IihuKKVFqNwjED8d86IHAdr9lDob5g@dpg-cqfo0pdds78s73c23l2g-a.oregon-postgres.render.com/productiondatabase_3ii8',
         conn_max_age=600
     )
 }
